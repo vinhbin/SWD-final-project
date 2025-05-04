@@ -1,10 +1,15 @@
 com/companyz/app/controller/LoginController.class
+com/companyz/app/controller/MyPayHistoryController.class
 com/companyz/app/MainApp.class
 com/companyz/app/model/Address.class
 com/companyz/app/service/AuthService.class
+com/companyz/app/service/MetricsService.class
+com/companyz/app/dao/PayrollDAO.class
 com/companyz/app/controller/SearchEmployeeController.class
 com/companyz/app/controller/SalaryAdjustmentController.class
+com/companyz/app/util/CSVUtil.class
 com/companyz/app/dao/AuthDAO.class
+com/companyz/app/dao/AdminMetricsDAO.class
 com/companyz/app/dao/ReportDAO.class
 com/companyz/app/dao/EmployeeDAO.class
 com/companyz/app/controller/EmployeeDashboardController.class
@@ -14,5 +19,6 @@ com/companyz/app/dao/DBConnectionManager.class
 com/companyz/app/model/Employee.class
 com/companyz/app/service/EmployeeService.class
 com/companyz/app/controller/ReportController.class
+com/companyz/app/controller/EmployeeProfileController.class
 com/companyz/app/controller/EditEmployeeController.class
 com/companyz/app/controller/AdminDashboardController.class
