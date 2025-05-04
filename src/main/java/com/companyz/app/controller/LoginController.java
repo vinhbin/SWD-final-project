@@ -1,9 +1,13 @@
 
 package com.companyz.app.controller;
 import com.companyz.app.service.AuthService;
+
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 public class LoginController{
@@ -21,6 +25,7 @@ public class LoginController{
             }else{
                 new EmployeeDashboardController(user.getText()).show(new Stage()); s.close();
             }
+            
         });
         GridPane gp=new GridPane(); gp.setPadding(new Insets(10)); gp.setVgap(5); gp.setHgap(5);
         gp.addRow(0,new Label("User:"),user);
@@ -29,4 +34,5 @@ public class LoginController{
         s.setScene(new Scene(gp,300,150));
         s.setTitle("EMS Login");s.show();
     }
+    
 }
